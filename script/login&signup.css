@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(173, 121, 121);
+    color: rgb(245, 237, 237);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+}
+
+.signup-box {
+    width: 80%;
+    max-width: 360px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(88, 38, 38);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid rgb(168, 138, 138);
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(158, 104, 104);
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(135, 87, 87);
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-1 {
+    text-align: center;
+    color: rgb(235, 227, 227);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.para-2 {
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.para-2 a {
+    color: rgb(110, 19, 19);
+}
+
+.login-box {
+    width: 80%;
+    max-width: 360px;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(104, 33, 33);
+}

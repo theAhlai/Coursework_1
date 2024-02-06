@@ -24,7 +24,7 @@ session_start();
         </form>
     </div>
     <p class="para-2">
-        Not have an account? <a href="7_signup.html">Sign Up Here</a>
+        Don't have an account? <a href="7_signup.html">Sign Up Here</a>
     </p>
 </body>
 </html>
